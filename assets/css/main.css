@@ -1,0 +1,136 @@
+body{
+    font-family: sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+/* menú */
+.box-menu{
+    padding: 0%;
+    margin: 0%;
+}
+.menu{
+    background-color: #343a40;
+}
+.box-menu{
+    width: 100%;
+}
+.list-menu{
+    list-style: none;
+}
+.list-menu li{
+    display: inline-block;
+    padding-left: 1%;
+}
+.list-menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 6%;    
+}
+.list-menu li a h5{
+    font-size: 1.2em;
+    margin-left: 5em;
+}
+.menu2-text {
+    margin-left: 45em;
+}
+.list-menu li a:hover{
+    color: #74777a;
+}
+.menu6-icon a{
+    display: none;
+}
+/*imagen header*/
+.imagen-header{
+    padding: 0%;
+    margin: 0%;
+}
+.imagen-header img{
+    width: 100%;
+    position: relative;
+    top: -3.125em;
+    z-index: -1;
+    filter:brightness(0.4);/*oscure la imagen*/
+}
+.title-img{
+    position: absolute;
+    text-align: center;
+}
+.title{
+    color: white;
+    font-weight: lighter;
+    font-size: 5.5em; 
+    padding-top: 15%;
+}
+.subtitle{
+    color:white;
+    font-size: 3em;
+    font-weight: lighter;
+    padding-top: 1.5%;
+}
+.title-content{
+    color: #363a3d;
+    font-size: 3.5em;
+    font-weight: lighter;
+    white-space: pre-line;
+    padding-left: 15%;
+    padding-top: 15%;
+}
+.paragraph{
+    color: #363a3d;
+    line-height: 1.5em;
+    white-space: pre-line;
+    padding-left: 15%;
+}
+.image{
+    width: 27.75em;
+    height: 27.75em;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin: 0% 15% 5% 15%;
+}
+.title-content1{
+    color: #363a3d;
+    font-size: 3.5em;
+    font-weight: lighter;
+    white-space: pre-line;
+    padding-right: 15%;
+    padding-top: 15%;
+}
+.paragraph1{
+    color: #363a3d;
+    line-height: 1.5em;
+    white-space: pre-line;
+    padding-right: 15%;
+}
+.title-content2{
+    color: #363a3d;
+    font-size: 3.5em;
+    font-weight: lighter;
+    white-space: pre-line;
+    padding-left: 15%;
+    padding-top: 15%;
+}
+.paragraph2{
+    color: #363a3d;
+    line-height: 1.5em;
+    white-space: pre-line;
+    padding-left: 15%;
+}
+.paragraph3{
+    padding: 5% 0% 5% 20%;
+    white-space: normal;
+    width: 90%;
+}
+/* Pie de página */
+.container-footer{
+    padding: 0%;
+    margin: 0%;
+    background-color: #343a40;
+}
+.text-footer{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 5%;
+}
